@@ -1,0 +1,15 @@
+body {
+    background-color: #FFDAC6;
+    font-size: 16px;
+    color: #454545;
+}
+h1 {
+    font-family: sans-serif;
+    color: #308bb5;
+    text-align: left;
+}
+a {
+    color:#46674f;
+    font-family: sans-serif;
+    text-decoration: none;
+}
