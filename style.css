@@ -6,10 +6,34 @@ body {
 h1 {
     font-family: sans-serif;
     color: #308bb5;
-    text-align: left;
+    text-align: center;
 }
 a {
     color:#46674f;
     font-family: sans-serif;
     text-decoration: none;
+}
+img {
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+    background-color: rgb(196, 118, 97);
+}
+.descricao {
+    position: absolute;
+    z-index: 2;
+    left: 330px;
+}
+div {
+    position: absolute;
+    z-index: 3;
+    top: 400px;
+}
+ul li:nth-child(odd) {
+    background-color: #FFDAC6;
+    color: #454545;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
